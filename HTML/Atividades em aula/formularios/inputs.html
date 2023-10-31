@@ -49,6 +49,33 @@
       <input type="file" name="file" id="file" />
       <br /><br />
 
+      <!-- Campo de caixa de seleção -->
+      <label for="situacao">Situação atual</label>
+      <select name="situacao" id="situacao">
+        <option value="" selected disabled>Selecione uma das opções</option>
+        <option value="" selected disabled>Selecione uma das opções...</option>
+        <option value="estudante">
+          Estudando para me tornar um programador
+        </option>
+        <option value="estagiario">Atuando como estagiário/trainee</option>
+        <option value="junior">Atuando como desenvolvedor júnior</option>
+        <option value="pleno">Atuando como desenvolvedor pleno</option>
+        <option value="senior">Atuando como desenvolvedor sênior</option>
+      </select>
+      <br /><br />
+
+      <!-- Campo de text ode múltiplas linhas -->
+      <label for="informações">Sobre mim</label>
+      <br />
+      <textarea
+        name="sobreMim"
+        id="informações"
+        cols="30"
+        rows="10"
+        placeholder="Escreva aqui"
+      ></textarea>
+      <br /><br />
+
       <button type="submit">Enviar</button>
     </form>
   </body>
